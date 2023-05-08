@@ -38,3 +38,7 @@ MonoBehaviour:
   - PLAYER / SCARED
   - PLAYER / SLOW
   - PLAYER / NORMALSPEED
+  - InteractEvent
+  - PLAYER / EQUIP ADD
+  - ITEM / EQUIPPED
+  - ITEM / NOT EQUIPPED
