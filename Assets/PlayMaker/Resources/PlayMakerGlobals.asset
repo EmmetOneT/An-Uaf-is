@@ -42,3 +42,4 @@ MonoBehaviour:
   - PLAYER / EQUIP ADD
   - ITEM / EQUIPPED
   - ITEM / NOT EQUIPPED
+  - HEALTH / SUBTRACT
