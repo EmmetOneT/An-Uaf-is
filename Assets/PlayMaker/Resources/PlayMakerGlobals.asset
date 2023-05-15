@@ -22,7 +22,13 @@ MonoBehaviour:
     colorVariables: []
     rectVariables: []
     quaternionVariables: []
-    gameObjectVariables: []
+    gameObjectVariables:
+    - useVariable: 1
+      name: GameManager
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
     objectVariables: []
     materialVariables: []
     textureVariables: []
@@ -30,7 +36,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 
+    variableCategoryIDs: 00000000
   events:
   - MUSIC / ENEMYSPAWN
   - MUSIC / AMBIENT
@@ -51,3 +57,6 @@ MonoBehaviour:
   - CAMERA / DEFAULT PLAYER
   - CAMERA / NEW PARENT
   - PLAYER / ENABLE ALL CONTROLS
+  - LETTER / UPDATE
+  - LETTER / Close
+  - LETTER / CLOSE
