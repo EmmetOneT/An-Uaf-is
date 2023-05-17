@@ -61,3 +61,5 @@ MonoBehaviour:
   - LETTER / Close
   - LETTER / CLOSE
   - PISTOL / ADDAMMO
+  - KEYS / ADDKEY
+  - interactEvent
