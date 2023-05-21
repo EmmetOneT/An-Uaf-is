@@ -63,3 +63,4 @@ MonoBehaviour:
   - PISTOL / ADDAMMO
   - KEYS / ADDKEY
   - interactEvent
+  - ZOMBIE / SPAWNWAVE
