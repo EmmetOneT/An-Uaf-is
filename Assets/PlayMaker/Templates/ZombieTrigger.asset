@@ -188,12 +188,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: ZombieSpawner
-        - useVariable: 1
-          name: NumberOfZombies
+        - useVariable: 0
+          name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 
+          value: NumberOfZombies
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
