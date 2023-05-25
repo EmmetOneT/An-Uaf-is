@@ -64,3 +64,4 @@ MonoBehaviour:
   - KEYS / ADDKEY
   - interactEvent
   - ZOMBIE / SPAWNWAVE
+  - BODYPARTS / ISTRIGGER
