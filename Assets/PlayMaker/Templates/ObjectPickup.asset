@@ -170,7 +170,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 1
             networkSync: 0
-            value: PickAxe
+            value: 
           sendToChildren:
             useVariable: 0
             name: 
@@ -268,7 +268,7 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 010101000101
+        actionEnabled: 010101010101
         actionIsOpen: 010101010101
         actionStartIndex: 000000000200000004000000090000000d00000011000000
         actionHashCodes: 15264c0115264c015b66cf005e69bb045e69bb045e69bb04
@@ -396,7 +396,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 1
             networkSync: 0
-            value: PickAxe
+            value: 
           sendToChildren:
             useVariable: 0
             name: 
@@ -650,7 +650,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: PickAxe
+        value: 
       vector2Variables: []
       vector3Variables: []
       colorVariables: []
