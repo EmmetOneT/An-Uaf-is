@@ -16,7 +16,13 @@ MonoBehaviour:
     floatVariables: []
     intVariables: []
     boolVariables: []
-    stringVariables: []
+    stringVariables:
+    - useVariable: 1
+      name: Message
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
     vector2Variables: []
     vector3Variables: []
     colorVariables: []
@@ -36,7 +42,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000
+    variableCategoryIDs: 0000000000000000
   events:
   - MUSIC / ENEMYSPAWN
   - MUSIC / AMBIENT
@@ -67,3 +73,5 @@ MonoBehaviour:
   - BODYPARTS / ISTRIGGER
   - TORCH / ADD BATTERY
   - KEYPAD / NUMBERENTERED
+  - NPC / TALKING
+  - NPC / NOTTALKING
