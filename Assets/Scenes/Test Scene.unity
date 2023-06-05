@@ -855,7 +855,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: SittingRoom
+        value: 
       vector2Variables: []
       vector3Variables: []
       colorVariables: []
