@@ -2270,6 +2270,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4241301436798962018, guid: 04099b91021cdee49a4bcc1beb60d76b, type: 3}
+      propertyPath: fsm.preprocessed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4241301436798962018, guid: 04099b91021cdee49a4bcc1beb60d76b, type: 3}
       propertyPath: fsm.variables.boolVariables.Array.data[0].value
       value: 1
       objectReference: {fileID: 0}
