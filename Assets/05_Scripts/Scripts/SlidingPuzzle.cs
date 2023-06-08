@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SlidingPuzzle : MonoBehaviour
 {
@@ -11,6 +12,10 @@ public class SlidingPuzzle : MonoBehaviour
     private int emptyLocation;
     private int size;
     private bool shuffling = false;
+    public GameObject canvasObject;
+    public GameObject canvasObjectTop;
+    public GameObject canvasObjectBottom;
+    public GameObject canvasObjectPiece;
 
     // Create the game setup with size x size pieces.
     private void CreateGamePieces(float gapThickness)
@@ -59,6 +64,8 @@ public class SlidingPuzzle : MonoBehaviour
         pieces = new List<Transform>();
         size = 2;
         CreateGamePieces(0.01f);
+         shuffling = true;
+            StartCoroutine(WaitShuffle(0.5f));
     }
 
     // Update is called once per frame
@@ -67,8 +74,11 @@ public class SlidingPuzzle : MonoBehaviour
         // Check for completion.
         if (!shuffling && CheckCompletion())
         {
-            shuffling = true;
-            StartCoroutine(WaitShuffle(0.5f));
+           //public void MakeActive()
+           canvasObject.SetActive(true);
+            canvasObjectTop.SetActive(true);
+            canvasObjectBottom.SetActive(true);
+            canvasObjectPiece.SetActive(false);
         }
 
         // On click send out ray to see if we click a piece.
@@ -119,9 +129,14 @@ public class SlidingPuzzle : MonoBehaviour
             {
                 return false;
             }
+            
         }
         return true;
+        { 
+            
+        }
     }
+  
 
     private IEnumerator WaitShuffle(float duration)
     {
