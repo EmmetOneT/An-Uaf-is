@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7780832051562789044}
   - component: {fileID: 7140711013792872172}
   - component: {fileID: 5698091268032050335}
+  - component: {fileID: 3186497496174173711}
   m_Layer: 5
   m_Name: 1
   m_TagString: Untagged
@@ -636,6 +637,21 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 11400000, guid: 0abe23f2e6016fd44a0b77b2062fa055, type: 2}
   eventHandlerComponentsAdded: 1
+--- !u!114 &3186497496174173711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178249679685376007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9e95858e6f8c0844ad340be6bba1f26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetFsms:
+  - {fileID: 5698091268032050335}
+  button: {fileID: 7140711013792872172}
 --- !u!1 &3189750430966462191
 GameObject:
   m_ObjectHideFlags: 0

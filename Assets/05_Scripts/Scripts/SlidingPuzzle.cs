@@ -16,6 +16,8 @@ public class SlidingPuzzle : MonoBehaviour
     public GameObject canvasObjectTop;
     public GameObject canvasObjectBottom;
     public GameObject canvasObjectPiece;
+    public GameObject canvasObjectLetter;
+
 
     // Create the game setup with size x size pieces.
     private void CreateGamePieces(float gapThickness)
@@ -79,6 +81,7 @@ public class SlidingPuzzle : MonoBehaviour
             canvasObjectTop.SetActive(true);
             canvasObjectBottom.SetActive(true);
             canvasObjectPiece.SetActive(false);
+            canvasObjectLetter.SetActive(true);
         }
 
         // On click send out ray to see if we click a piece.
