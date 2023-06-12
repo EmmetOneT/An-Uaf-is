@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/0_Scenes/Puzzle1.unity
     guid: ed45df6af21050947ac404321369df2f
+  - enabled: 1
+    path: Assets/0_Scenes/BoatScenePuzzleWin.unity
+    guid: af3f704ec12afe6458e1fae31a8bc6fc
+  - enabled: 1
+    path: Assets/0_Scenes/MansionGrounds.unity
+    guid: 301cb16084db35542b700abd48422a78
   m_configObjects: {}
