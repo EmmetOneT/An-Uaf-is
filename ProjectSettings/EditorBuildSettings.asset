@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/0_Scenes/MansionGrounds.unity
     guid: 301cb16084db35542b700abd48422a78
+  - enabled: 1
+    path: Assets/0_Scenes/DoorOpen.unity
+    guid: 3d128bbda7febdf4b9eaa39d1bc0429e
+  - enabled: 1
+    path: Assets/0_Scenes/Mansion.unity
+    guid: d2007d4436f15554e9ad069d54e98a4f
   m_configObjects: {}
