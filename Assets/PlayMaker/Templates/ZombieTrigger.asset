@@ -125,13 +125,15 @@ MonoBehaviour:
         actionNames:
         - HutongGames.PlayMaker.Actions.SetFsmInt
         - HutongGames.PlayMaker.Actions.SendEvent
+        - HutongGames.PlayMaker.Actions.ActivateGameObject
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000005000000
-        actionHashCodes: 081bbf055e69bb04
+        - 
+        actionEnabled: 000001
+        actionIsOpen: 010101
+        actionStartIndex: 000000000500000009000000
+        actionHashCodes: 081bbf055e69bb04b2cf1000
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -139,6 +141,14 @@ MonoBehaviour:
           gameObject:
             useVariable: 1
             name: GameManager
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -212,7 +222,19 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 3
-        fsmBoolParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
@@ -220,12 +242,12 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - ZOMBIE / SPAWNWAVE
-        byteData: 0000
+        byteData: 00000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 14000000120000001200000010000000010000001f000000170000000f00000001000000
+        paramDataType: 14000000120000001200000010000000010000001f000000170000000f000000010000001400000011000000110000000100000001000000
         paramName:
         - gameObject
         - fsmName
@@ -236,8 +258,13 @@ MonoBehaviour:
         - sendEvent
         - delay
         - everyFrame
-        paramDataPos: 000000000000000001000000000000000000000000000000000000000000000001000000
-        paramByteDataSize: 000000000000000000000000000000000100000000000000000000000000000001000000
+        - gameObject
+        - activate
+        - recursive
+        - resetOnExit
+        - everyFrame
+        paramDataPos: 0000000000000000010000000000000000000000000000000000000000000000010000000100000000000000010000000200000003000000
+        paramByteDataSize: 0000000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000001000000
     events:
     - name: next
       isSystemEvent: 0
