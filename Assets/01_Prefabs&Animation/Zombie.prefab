@@ -513,6 +513,7 @@ GameObject:
   - component: {fileID: 8029181574607975405}
   - component: {fileID: 8998456508212676929}
   - component: {fileID: 6450627272920136911}
+  - component: {fileID: 8574408194129373310}
   m_Layer: 0
   m_Name: Zombie
   m_TagString: Untagged
@@ -2569,7 +2570,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -2598,14 +2599,28 @@ MonoBehaviour:
     handleJointBreak2D: 0
     handleOnGUI: 0
     handleFixedUpdate: 0
-    handleLateUpdate: 0
+    handleLateUpdate: 1
     handleApplicationEvents: 0
     handleUiEvents: 0
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
+--- !u!114 &8574408194129373310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477371695877317670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1079068393, guid: 9754d4abda502c6458053d5ed8e4fc5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 6450627272920136911}
 --- !u!1 &594964078917819185
 GameObject:
   m_ObjectHideFlags: 0
