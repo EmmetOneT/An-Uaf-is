@@ -2372,7 +2372,8 @@ Animation:
   m_Enabled: 1
   serializedVersion: 3
   m_Animation: {fileID: 7400000, guid: 6eac3fbdff173054eb6ed96f8cf8e581, type: 2}
-  m_Animations: []
+  m_Animations:
+  - {fileID: 7400000, guid: 6eac3fbdff173054eb6ed96f8cf8e581, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -9148,7 +9149,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2852581260023971164, guid: 4ca0ee8a6581d2141bf1654391b2e4c5, type: 3}
+  - {fileID: 2100000, guid: 72871e7dc9b5c3948827e3debdd506ea, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12394,7 +12395,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2852581260023971164, guid: 4ca0ee8a6581d2141bf1654391b2e4c5, type: 3}
+  - {fileID: 2100000, guid: cd149986bd8c73241b69208ea3e1be82, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -36033,6 +36034,7 @@ Animation:
   m_Animation: {fileID: 7400000, guid: 1fe03ab02205e1d47b89fe154f14ffa1, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 6eac3fbdff173054eb6ed96f8cf8e581, type: 2}
+  - {fileID: 7400000, guid: 1fe03ab02205e1d47b89fe154f14ffa1, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -38616,7 +38618,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d5884673947c0f04782b5f1bf55214c3, type: 2}
+  - {fileID: 2100000, guid: a566c109e50f35b4387d69874332ca67, type: 2}
   - {fileID: 2100000, guid: d1147ce0b759e0c47a43ae6cd296a43b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -38740,7 +38742,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f0432bb9f67eb1f49892fbb3559cf159, type: 2}
+  - {fileID: 2100000, guid: 9c2975c4acab7054db5937e33e808d56, type: 2}
   - {fileID: 2100000, guid: d1147ce0b759e0c47a43ae6cd296a43b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
