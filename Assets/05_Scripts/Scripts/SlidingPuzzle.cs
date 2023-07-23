@@ -64,7 +64,7 @@ public class SlidingPuzzle : MonoBehaviour
     void Start()
     {
         pieces = new List<Transform>();
-        size = 2;
+        size = 3;
         CreateGamePieces(0.01f);
          shuffling = true;
             StartCoroutine(WaitShuffle(0.5f));

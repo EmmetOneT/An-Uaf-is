@@ -29450,11 +29450,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4241301436798962030, guid: 04099b91021cdee49a4bcc1beb60d76b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 219.10002
+      value: 216.2
       objectReference: {fileID: 0}
     - target: {fileID: 4241301436798962030, guid: 04099b91021cdee49a4bcc1beb60d76b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 264
+      value: 261.8
       objectReference: {fileID: 0}
     - target: {fileID: 4241301436798962030, guid: 04099b91021cdee49a4bcc1beb60d76b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -30870,7 +30870,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I come out here once per day. But I usually dock at the more populated
+  m_text: I come out to the island once per day. But I usually dock at the more populated
     side of the island. I haven't been to this side in a few years.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
