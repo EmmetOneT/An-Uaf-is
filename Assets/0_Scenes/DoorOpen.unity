@@ -893,7 +893,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: Mansion
+          value: FixScene
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
