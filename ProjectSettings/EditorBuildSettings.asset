@@ -26,9 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/0_Scenes/DoorOpen.unity
     guid: 3d128bbda7febdf4b9eaa39d1bc0429e
-  - enabled: 1
-    path: Assets/0_Scenes/FixScene.unity
-    guid: d847a8a94b2b0ee48883792993b29d1d
+  - enabled: 0
+    path: Assets/0_Scenes/Fix.unity
+    guid: dfd6042c7a1e38144ac0ae13f3477fc8
   - enabled: 1
     path: Assets/0_Scenes/Mansion.unity
     guid: d2007d4436f15554e9ad069d54e98a4f
