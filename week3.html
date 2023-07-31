@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+
+    <html lang="en">
+        <head>
+            <title>An Uafáis</title>
+            <meta charset="utf-8"/>
+            <meta name="description" content="Simulated Work Experience">
+            <meta name="keywords" content="Game, horror">
+            <meta name="author" content="Emmet Carroll">
+            <link rel="stylesheet" type="text/css" href="style/style.css"/>
+            <link rel="icon" href="images/TitleCard.PNG" type="image/gif" sizes="16x16">
+        </head>
+        <body>
+        
+        <header>
+            <img class="logo" src="images/TitleCard.PNG" alt="logo">
+        </header>
+            
+        <nav>
+             <ul>
+                 <li><a href="index.html">An Uafáis</a></li>
+                 <li> <a href="week1.html">An Uafáis Week 1</a></li>
+                  <li> <a href="week2.html">An Uafáis Week 2</a></li>
+                 <li id="active"> <a href="week3.html">An Uafáis Week 3</a></li>
+                  <li> <a href="week4.html">An Uafáis Week 4</a></li>
+                    <li> <a href="week5.html">An Uafáis Week 5</a></li>
+                 <li> <a href="week6.html">An Uafáis Week 6</a></li>
+                  <li> <a href="week7.html">An Uafáis Week 7</a></li>
+                    <li> <a href="week8.html">An Uafáis Week 8</a></li>
+                 <li> <a href="week9.html">An Uafáis Week 9</a></li>
+                  <li> <a href="week10.html">An Uafáis Week 10</a></li>
+                    <li> <a href="week11.html">An Uafáis Week 11</a></li>
+                 <li> <a href="week12.html">An Uafáis Week 12</a></li>
+            </ul>
+        </nav> 
+        
+                
+                        
+                <section>
+                <h2>DevLog</h2>
+                <h3>Week 1</h3>
+                <section class="col_detail">
+                <img src="images/site2.jpeg" alt="mtb"/>
+                    <p>
+               Fixed enemy dead body following the player by changing their follow parameters to themselves when in the ‘dead state’. Set up random spawn for item pickups. Using ammo boxes, they can now spawn randomly in locations set by the developer. Using GIMP, I downscaled an image of a letter to be used in game to match the PSX aesthetic. In Blender, created plane and imported letter image as texture. Using a canvas, panel and textmeshpro and creating a letter prefab that can be edited so, the prefab can be brought into the scene where, text can be added after for ease of use. All players controls, aside from the ‘Use’ key get locked when reading so, when the player presses ‘Use’ while reading, they can stop interacting with the letter.  
+ Worked on ammunition pickup. Had some issues getting the Game manager to send over to the ammunition pickup. Player is set up to count ammunition so, the gun cant be fired without ammunition in the player inventory
+ Continued trying to fix the ammunition pickup. Moved onto opening and closing doors with the raycast. Door plays animation and always opens away from player for ease of use in-game. Added a key that holds a string to be used with a unique door. This uses a compare string, comparing the doors ID with the Keys ID. Keys with strings are added to an array which gets looped when trying to open a locked door.
+ Added another enemy type with 2 variations. This new enemy is a more traditional zombie type. They have a walk, attack, death and hit animation attached. They follow the player character. I went back to try to figure out what went wrong with my ammo pickup. I found out that it was the game manager. I was using the local variable where, it should have been a global so items like the pistol, player and letter could interact with it. Game now checks whether the player has the gun equipped. If not equipped and empty, the gun will make an empty click sound and not fire. If Player picks up the ammo, amount of bullets specified will be added to the gun, allowing the player to fire that amount of time before the gun goes back to empty. 
+Youtube Video Link to Gun Fire: https://youtu.be/YAt3oMUxT6U
+ 
+ 
+ Set up zombie spawner. Unlike the last enemy, this zombie now spawns zombies in spawn points that I have set in the testscene. Created a template to spawn in enemies on a trigger. Set up for ‘creeping’ game objects, where an item in the world will follow the player when not looking at it. 
+
+
+
+                    </p>
+                </section>
+                     <h3> Github: https://github.com/S00213942/An-Uaf-is</h3>
+            
+            <footer>
+               <ul>
+                   <li><a href="index.html">Home</a></li>
+                  
+               </ul>
+                <small>&copy; 2023 An Uafáis</small>
+            </footer>
+                     </section>
+        </body>
+        
+</html>

@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+
+    <html lang="en">
+        <head>
+            <title>An Uafáis</title>
+            <meta charset="utf-8"/>
+            <meta name="description" content="Simulated Work Experience">
+            <meta name="keywords" content="Game, horror">
+            <meta name="author" content="Emmet Carroll">
+            <link rel="stylesheet" type="text/css" href="style/style.css"/>
+            <link rel="icon" href="images/TitleCard.PNG" type="image/gif" sizes="16x16">
+        </head>
+        <body>
+        
+        <header>
+            <img class="logo" src="images/TitleCard.PNG" alt="logo">
+        </header>
+            
+        <nav>
+             <ul>
+                 <li><a href="index.html">An Uafáis</a></li>
+                 <li> <a href="week1.html">An Uafáis Week 1</a></li>
+                  <li id="active"> <a href="week2.html">An Uafáis Week 2</a></li>
+                 <li> <a href="week3.html">An Uafáis Week 3</a></li>
+                  <li> <a href="week4.html">An Uafáis Week 4</a></li>
+                    <li> <a href="week5.html">An Uafáis Week 5</a></li>
+                 <li> <a href="week6.html">An Uafáis Week 6</a></li>
+                  <li> <a href="week7.html">An Uafáis Week 7</a></li>
+                    <li> <a href="week8.html">An Uafáis Week 8</a></li>
+                 <li> <a href="week9.html">An Uafáis Week 9</a></li>
+                  <li> <a href="week10.html">An Uafáis Week 10</a></li>
+                    <li> <a href="week11.html">An Uafáis Week 11</a></li>
+                 <li> <a href="week12.html">An Uafáis Week 12</a></li>
+            </ul>
+        </nav> 
+        
+                
+                        
+                <section>
+                <h2>DevLog</h2>
+                <h3>Week 1</h3>
+                <section class="col_detail">
+                <img src="images/Site1.jpeg" alt="mtb"/>
+                    <p>
+                     Using a raycast, I have been setting up an interact event to turn on and off light sources such as fireplaces and candles. I had an issue for a while with the transition between light intensity going from a value of 1 to 0. Eventually solved this issue which was caused by an incorrect naming scheme. Set up equipable system. Player can now pick up pistol which attaches to player. Player can also pick up melee weapon. Inventory system added so, player can scroll between weapons in game. Clamp added to integers so, the player cannot scroll too many times. With two Items in inventory, player can only scroll to (0 & +1)
+ Added a mouse pick to the raycast for the gun shoot point. This uses the raycast that has already been implemented into the player character and get the point on the screen that the raycast hits. Added a delay time of .05 seconds so, the player can’t spam the fire button. Created a retro gun sound in Audacity. Created a muzzle flash game object in Blender. Added both to the gun fire game script. Added a random rotation for the muzzle flash so, it looks like a random flash pattern each time the gun is fired. 
+ Created a reusable template for a destructible object. The player can now shoot an object to destroy it from the world. These objects can be given different numbers of hit points. Using this template, I changed it to be used on the enemy. I got a death animation for the enemy so, now when the player shoots the enemy a set number of times, the enemy will die with a death animation and not respawn. When the enemy dies, its spawner is deactivated and the players ‘Is scared’ visuals will stop, and the screen effects go back to normal. 
+Added enemy attack. Attached 3d object to enemy so, when the player gets too close, the enemy attacks. Got an attack animation to play when enemy is too close. Attached player camera to the cube to look up at enemy’s arm when they swing. At this point, the spawner could have a chance to reset the enemy, breaking the attack state. Worked on trying to figure out broken state. When the enemy attacks, the game, the player can’t control and the enemy stops moving.
+ 
+ 
+ Worked on fixing the attack state of the enemy. The problem came from the player being instantly grabbed and attacked by the enemy when in the attack range. Player can now break out of the being attacked animation. I put a ‘Spam attack state’ where, the game waits 2 seconds after being attacked to attack again so, the player can back up. I have added health to the player. In my testing, the enemy does 5 damage per attack and the player has 10 health. Set up so enemy goes back to walk state after attacking. 
+
+
+
+                    </p>
+                </section>
+                     <h3> Github: https://github.com/S00213942/An-Uaf-is</h3>
+            
+            <footer>
+               <ul>
+                   <li><a href="index.html">Home</a></li>
+          
+               </ul>
+                <small>&copy; 2023 An Uafáis</small>
+            </footer>
+                     </section>
+        </body>
+        
+</html>

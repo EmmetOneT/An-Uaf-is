@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+
+    <html lang="en">
+        <head>
+            <title>An Uafáis</title>
+            <meta charset="utf-8"/>
+            <meta name="description" content="Simulated Work Experience">
+            <meta name="keywords" content="Game, horror">
+            <meta name="author" content="Emmet Carroll">
+            <link rel="stylesheet" type="text/css" href="style/style.css"/>
+            <link rel="icon" href="images/TitleCard.PNG" type="image/gif" sizes="16x16">
+        </head>
+        <body>
+        
+        <header>
+            <img class="logo" src="images/TitleCard.PNG" alt="logo">
+        </header>
+            
+        <nav>
+             <ul>
+                 <li><a href="index.html">An Uafáis</a></li>
+                 <li> <a href="week1.html">An Uafáis Week 1</a></li>
+                  <li> <a href="week2.html">An Uafáis Week 2</a></li>
+                 <li> <a href="week3.html">An Uafáis Week 3</a></li>
+                  <li id="active"> <a href="week4.html">An Uafáis Week 4</a></li>
+                    <li> <a href="week5.html">An Uafáis Week 5</a></li>
+                 <li> <a href="week6.html">An Uafáis Week 6</a></li>
+                  <li> <a href="week7.html">An Uafáis Week 7</a></li>
+                    <li> <a href="week8.html">An Uafáis Week 8</a></li>
+                 <li> <a href="week9.html">An Uafáis Week 9</a></li>
+                  <li> <a href="week10.html">An Uafáis Week 10</a></li>
+                    <li> <a href="week11.html">An Uafáis Week 11</a></li>
+                 <li> <a href="week12.html">An Uafáis Week 12</a></li>
+            </ul>
+        </nav> 
+        
+                
+                        
+                <section>
+                <h2>DevLog</h2>
+                <h3>Week 1</h3>
+                <section class="col_detail">
+                <img src="images/week%208.PNG" alt="mtb"/>
+                    <p>
+                      Completed a stalking template. Using a chair for testing, I got the position and rotation of the player character and set the chair to appear at a distance behind the player. I had to make the game check to see if the player camera was ‘seeing’ the chairs bounds. The chair was initially floating so, I added a navmesh agent to the chair so, it would be on the ground when the player sees it but I decided to add a collider and rigidbody so, it seems like the chair was floating behind the player, then falls as the player is looking for it. 
+Added a suitable skybox asset pack. Using the skybox, the test scene darkens. Using this, I decided to create my useable light switches. 
+ Added a spotlight from the gun that turns on and off when the gun fires to light up the environment when fired. Jumpscares added. Players raycast hits everything except for its capsule collider and windows. Jumpscare box collider set up outside window. Player must be close enough to the window and looking out for an animated character to pop up for less than a second with jumpscare sound effect playing. The jumpscare ends and the character disappears, not repeatable. 
+ Created a splash screen for the main menu. In Gimp, using layer masks, I created the splash screen using the name of the game with some rusty background to fill in the text.  Using Levels and saturation, I got the text the way I want. Created main menu scene in Unity. Added ‘Start Game’ and ‘Exit’ buttons. Start game brings me to the Test scene and the Exit button closes the application. 
+ Added character joints to zombie model. Created a damage template to be used on other body parts with a float multiplier. Setting damage to the head of the zombie as only needing one shot, torso needing 3 and legs and arms needing 7. Set up zombie death animation and turned off colliders on death so, the player doesn’t get stuck on the bodies. Created a pause Panel. When ‘escape’ key is pressed, the panel shows and the screen, in game play time is set to 0 and the players controls gets disabled. To resume, the player can press ‘escape’ again or press the button on the panel to resume. I added a ‘Main menu’ button and ‘Quit’ button. The ‘Main menu’ button brings you to the main menu scene and the ‘Quit’ button closes the application. Had to add baked lightmaps to the scene as, if the player goes to the main menu then back into the scene, it was too dark.
+ 
+ 
+ I started the day by bringing in a flashlight model and attached a spotlight source to it. I made it equipable and when the user uses the fire key, the light will turn on and off. I cam across an issue with my equipables where, if the player were to pick up the gun, then another item and switch back to the gun, it would not go back to its ‘equipped’ state, allowing it to be fired. I spent a while sorting this out but, in the end, found out that I had all of the equipables set to ‘reset state on exit’, which I didn’t want. Now, if the player picks up the flashlight and turns it on, switched to another item and back to the flashlight it will have kept its on state. This is the same if its in its off state and switched out. 
+
+
+
+                    </p>
+                </section>
+                     <h3> Github: https://github.com/S00213942/An-Uaf-is</h3>
+            
+            <footer>
+               <ul>
+                   <li><a href="index.html">Home</a></li>
+              
+               </ul>
+                <small>&copy; 2023 An Uafáis</small>
+            </footer>
+                     </section>
+        </body>
+        
+</html>

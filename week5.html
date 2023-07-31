@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+
+    <html lang="en">
+        <head>
+            <title>An Uafáis</title>
+            <meta charset="utf-8"/>
+            <meta name="description" content="Simulated Work Experience">
+            <meta name="keywords" content="Game, horror">
+            <meta name="author" content="Emmet Carroll">
+            <link rel="stylesheet" type="text/css" href="style/style.css"/>
+            <link rel="icon" href="images/TitleCard.PNG" type="image/gif" sizes="16x16">
+        </head>
+        <body>
+        
+        <header>
+            <img class="logo" src="images/TitleCard.PNG" alt="logo">
+        </header>
+            
+        <nav>
+             <ul>
+                 <li><a href="index.html">An Uafáis</a></li>
+                 <li> <a href="week1.html">An Uafáis Week 1</a></li>
+                  <li> <a href="week2.html">An Uafáis Week 2</a></li>
+                 <li> <a href="week3.html">An Uafáis Week 3</a></li>
+                  <li> <a href="week4.html">An Uafáis Week 4</a></li>
+                    <li id="active"> <a href="week5.html">An Uafáis Week 5</a></li>
+                 <li> <a href="week6.html">An Uafáis Week 6</a></li>
+                  <li> <a href="week7.html">An Uafáis Week 7</a></li>
+                    <li> <a href="week8.html">An Uafáis Week 8</a></li>
+                 <li> <a href="week9.html">An Uafáis Week 9</a></li>
+                  <li> <a href="week10.html">An Uafáis Week 10</a></li>
+                    <li> <a href="week11.html">An Uafáis Week 11</a></li>
+                 <li> <a href="week12.html">An Uafáis Week 12</a></li>
+            </ul>
+        </nav> 
+        
+                
+                        
+                <section>
+                <h2>DevLog</h2>
+                <h3>Week 1</h3>
+                <section class="col_detail">
+                <img src="images/week8%201.PNG" alt="mtb"/>
+                    <p>
+                Fixed rotation of flashlight on pickup. Added a battery system. The flashlight can e picked up but the player cant turn on the light without a battery. When the player picks up the battery, it adds +1 to the battery count. The battery lasts a set amount of time before the light switches off. Added sound effect for light switch on/off. Made the light switch model flip 180 degrees when pressed on or off to make the switch look like its going to an on/off state. Added sound effect for flashlight on/off. Added fire sound to active fireplace with logarithmic roll off and 3d spatial blend.
+ After testing a flickering light and dimming light on the battery running out, I decided on the light dimming. Now the lights intensity goes down incrementally from 1 > .7 > .5 >.3 to finally 0. This gives the player time to decide what to do with the remaining battery and is fairer than a flickering light. Created a safe Model in Blender and textured it to match my PSX style.
+Added colliders so items can rest inside the safe. 
+ Added an opening rotation animation to the door and made it interactable. Created a new panel for the keypad and made it have a grid layout. Converting the TMP from a string to an int, I can get the number pressed by the player. Using a loop to create a random int of 4 numbers for the keypad to check. If the player enters the 4 digit code correctly, the safe opens, if the player presses 4 keys and the code is incorrect, it resets the state, allowing 4 fresh numbers to be entered. I changed the letter prefab so, it can check if the letter should have a keycode on it. If it does, it will get the random string of 4 numbers to be used with the safes keypad. 
+ Added an NPC with a capsule collider. Added an Idle animation. Added a panel with a Text component. Using my Interact template, I created a text box system. When the player presses ‘E’ on the NPC a dialog box pops up with text assigned to that NPC. Time stops and the players movement is disabled until the player presses ‘E’ again.
+ 
+ Added multiple dialog boxes to the NPC chat. I had to make sure that when the player chooses an option that it deactivates that button object and enables the correct next text. Fixed the flashlight, when the flashlight dims to denote the battery running out, the player wasn’t able to turn off the light. Now, when the flashlights light is int this lower power state. The player can switch it off and switch it back on, going back to the lower power state that it was in. 
+
+
+
+                    </p>
+                </section>
+                     <h3> Github: https://github.com/S00213942/An-Uaf-is</h3>
+            
+            <footer>
+               <ul>
+                   <li><a href="index.html">Home</a></li>
+               
+               </ul>
+                <small>&copy; 2023 An Uafáis</small>
+            </footer>
+                     </section>
+        </body>
+        
+</html>

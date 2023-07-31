@@ -1,0 +1,153 @@
+header{
+background-image: url(../images/TitleCard.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    color: blue;
+    border: 1px Maroon;
+}
+
+
+body {
+    font-family: Verdana;
+    width: 98%;
+    background-color: Grey;
+    color: black;
+}
+
+nav{
+    padding: 10;
+    border: 10px double green;
+    background-color: silver;
+}
+
+#content {
+    float: left;
+    width: 80%;
+    margin-right: 15px;
+    border: 1px solid grey;
+
+}
+
+#aboutUs{
+    text-align: center
+}
+
+#bigPic{
+    width: 20%
+}
+
+section.An Uafáis {
+    
+    overflow: auto;
+}
+
+.col_detail {
+    
+    column-count: 3;
+    column-rule: 2px solid silver;
+    column-gap: 50px;
+    padding: 2px;
+}
+
+.videoContent {
+    float: right;
+    width: 49%;
+    border: 2px solid green;
+    max-height: 450px;
+    min-height: 450px;
+    overflow: auto;
+}
+
+footer{
+    clear: both;
+    border: 1px sloid green;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: silver;
+    text-align: center;
+}
+
+nav ul {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline;
+}
+
+footer ul li {
+    list-style-type: none;
+    color: green;
+    display: inline;
+    padding: 15px;
+}
+
+#product {
+    text-align: center;
+    border: 5px solid silver;
+}
+
+#active {
+    background-color: whitesmoke;
+}
+
+#content {
+    float: left;
+    width: 80%;
+    border: 1px solid grey;
+}
+
+p{
+    text-align: justify;
+    padding: 2px;
+}
+
+.showimages {
+    float: left;
+    width: 30%;
+    border: 2px solid blue;
+    margin: 0 10px 0 10px;
+    
+}
+
+.course{
+    text-align: center;
+    border: 1px solid green;
+    padding: 10px;
+}
+
+.backgroundImageB {
+    background-image: url(../Images/Mansion.PNG);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.backgroundImageC {
+    background-image: url(../Images/Mansion.PNG);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.backgroundImageE {
+    background-image: url(../Images/Mansion.PNG);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+aside ul li a{
+    color: aquamarine;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    background-color: grey;
+}
+
+aside ul li{
+    list-style-type: none
+}
